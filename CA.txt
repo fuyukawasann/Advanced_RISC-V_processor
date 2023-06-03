@@ -1,0 +1,11 @@
+A1_InFetch/instruction_out = 00550533 lw
+stall_out = 1
+
+clk_count_out 143에서 멈추면 X
+
+hazard detec. instruction_in = ??
+
+flush
+
+pc 144~180
+	: 처음에 0~180 찍고 반복
