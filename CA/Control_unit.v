@@ -33,9 +33,9 @@ module Control_unit(
                 7'b01100_11 : Ctl_out = 8'b001000_10;   // R-type
                 7'b00100_11 : Ctl_out = 8'b101000_11;   // I-type MCC
                 7'b00000_11 : Ctl_out = 8'b111100_00;
-                7'b00000_11 : Ctl_out = 8'b100010_00;   // S-type
-                7'b01000_11 : Ctl_out = 8'b000001_00;   // SB-type
-                7'b11000_11 : Ctl_out = 8'b001001_00;   // UJ-type
+                7'b01000_11 : Ctl_out = 8'b100010_00;   // S-type
+                7'b11000_11 : Ctl_out = 8'b000001_01;   // SB-type
+                7'b11011_11 : Ctl_out = 8'b001001_00;   // UJ-type
                 7'b11001_11 : Ctl_out = 8'b101001_11;
                 
                 default     : Ctl_out = 8'b0;   // control unit

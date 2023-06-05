@@ -37,7 +37,7 @@ module counter(
 	assign clk_out = count[0]; //count[24];
 	assign clk_check = count[0];
 
-    assign LED_clk = led_count[2:0];
+    assign LED_clk = led_count[14:12];
    
     
 	always @(posedge clk) begin
