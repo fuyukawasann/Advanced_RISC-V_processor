@@ -38,6 +38,8 @@ Based on this structured approach, once the execution reached Case 3, the instru
 The original plan involved implementing a Branch Predictor to enhance the Branch Condition. However, after optimizing the assembly code, it was observed that the Branch was taken only once. Given this finding, it was determined that implementing a Branch Predictor would not yield significant improvements over the current results. Consequently, the focus was shifted towards further software enhancements.
 
 ## Result
-<img width="524" alt="image" src="https://github.com/user-attachments/assets/86b72bc5-a14a-4148-b8dd-6d9857a2c7a0">
+<div align="center">
+ <img width="524" alt="image" src="https://github.com/user-attachments/assets/86b72bc5-a14a-4148-b8dd-6d9857a2c7a0">
+</div>
 
-We improve 62,796 cycles to 174 cycles.
+We improve 62,764 cycles to 174 cycles.
